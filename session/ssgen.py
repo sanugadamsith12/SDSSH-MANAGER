@@ -3,12 +3,13 @@ from time import sleep
 
 a = r"""
  
-┏━━━┳━━━┳━━━┳┓┏━┳━━━┳━━━┳┓╋┏┓
-┗┓┏┓┃┏━┓┃┏━┓┃┃┃┏┫┏━┓┃┏━┓┃┃╋┃┃
-╋┃┃┃┃┃╋┃┃┗━┛┃┗┛┛┃┗━━┫┗━━┫┗━┛┃
-╋┃┃┃┃┗━┛┃┏┓┏┫┏┓┃┗━━┓┣━━┓┃┏━┓┃
-┏┛┗┛┃┏━┓┃┃┃┗┫┃┃┗┫┗━┛┃┗━┛┃┃╋┃┃
-┗━━━┻┛╋┗┻┛┗━┻┛┗━┻━━━┻━━━┻┛╋┗┛
+
+░██████╗██████╗░  ░██████╗░██████╗██╗░░██╗
+██╔════╝██╔══██╗  ██╔════╝██╔════╝██║░░██║
+╚█████╗░██║░░██║  ╚█████╗░╚█████╗░███████║
+░╚═══██╗██║░░██║  ░╚═══██╗░╚═══██╗██╔══██║
+██████╔╝██████╔╝  ██████╔╝██████╔╝██║░░██║
+╚═════╝░╚═════╝░  ╚═════╝░╚═════╝░╚═╝░░╚═╝
 """
 
 
@@ -67,7 +68,7 @@ def telethon_session():
     # logging in
     try:
         with TelegramClient(StringSession(), API_ID, API_HASH) as ultroid:
-            print("Generating a user session for DARKSSH...")
+            print("Generating a user session for SDSSH...")
             ult = ultroid.send_message(
                 "me",
                 f"**DARKSSH** `SESSION`:\n\n`{ultroid.session.save()}`\n\n**Do not share this anywhere!**",
