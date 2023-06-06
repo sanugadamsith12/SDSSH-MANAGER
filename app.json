@@ -1,6 +1,6 @@
 {    
 
-"name": "Darkssh-Manager-userBot",
+"name": "SDssh-Manager-userBot",
     "description": "A bot that can Manage your ssh",
     "logo": "https://telegra.ph/file/a300722ddab9d8d24fc15.jpg",
     "keywords": [
@@ -60,7 +60,7 @@
            
         },
         "BANNER_NAME": {
-            "description": "ssh account name like (🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥)",
+            "description": "ssh account name like (🔥⚡️⚡️ සනුග දම්සිත් ⚡️⚡️🔥)",
             "value": ""
         }
     },
